@@ -1,4 +1,4 @@
-def secret = 'Server'
+def secret = 'Sever'
 def server = 'ubuntu@108.136.84.79'
 def directory = 'Dumbflix-fe'
 def branch = 'main'
