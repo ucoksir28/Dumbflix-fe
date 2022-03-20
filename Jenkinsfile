@@ -1,7 +1,7 @@
 def secret = 'Sever'
 def server = 'ubuntu@108.136.84.79'
 def directory = 'Dumbflix-fe'
-def branch = 'main'
+def branch = 'master'
 
 pipeline{
     agent any
