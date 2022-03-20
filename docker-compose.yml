@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+ frontend:
+   container_name: frontend
+   build: .
+   image: ucok28/dumbflixfe1.0:1.4
+   stdin_open: true
+   ports:
+     - 3000:3000

@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+ dumbflix-frontend:
+   container_name: dumbflix-frontend
+   
+image: ucok28/dumbflixfe1.0:latest
+   stdin_open: true
+   ports:
+     - 3000:3000
