@@ -2,5 +2,5 @@ version: 0.2
 phases:
   build:
     commands:
-        - cd /home/ubuntu/Dumbflix-fe
+        - docker build -t testfe .
         - docker-compose up -d
