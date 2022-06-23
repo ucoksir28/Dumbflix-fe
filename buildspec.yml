@@ -4,3 +4,9 @@ phases:
     commands:
         - docker build -t testfe .
         - docker-compose up -d
+  artifacts:
+  files:
+    - '**/*'
+  base-directory: base_dir
+  name: codepipeline-ap-southeast-1-109175179089
+  discard-paths: no
