@@ -2,5 +2,6 @@ version: 0.2
 phases:
   build:
     commands:
+        - docker pull ucok28/dumbflixfe1.0:1.4
         - cd /home/ubuntu/Dumbflix-fe
         - docker-compose up -d
