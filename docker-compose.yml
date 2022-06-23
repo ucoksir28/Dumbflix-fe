@@ -3,7 +3,7 @@ services:
  frontend:
    container_name: frontend
    build: .
-   image: test
+   image: testfe:latest
    stdin_open: true
    ports:
      - 3000:3000
